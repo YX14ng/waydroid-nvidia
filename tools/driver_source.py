@@ -19,7 +19,7 @@ import subprocess
 import sys
 
 REPO = Path(__file__).resolve().parents[1]
-URL = 'https://github.com/Shiro836/nvidia-prolapse'
+URL = 'https://github.com/YX14ng/nvidia-prolapse'
 PINS = REPO / 'vendor-image/pins.env'
 ENV = 'NVIDIA_PROLAPSE_SRC'
 

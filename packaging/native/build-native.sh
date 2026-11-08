@@ -114,7 +114,7 @@ for t in x86_64-linux-android i686-linux-android; do
     rustup target list --installed | grep -qx "$t" || die "rust target $t missing: rustup target add $t"
 done
 
-say "the driver: github.com/Shiro836/nvidia-prolapse"
+say "the driver: github.com/YX14ng/nvidia-prolapse"
 if [ -n "${NVIDIA_PROLAPSE_SRC:-}" ]; then
     DRIVER=$("$PY" tools/driver_source.py path)
 else
